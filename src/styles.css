@@ -71,7 +71,8 @@ header h3 {
   background: var(--light-green-color);
 }
 
-.designsHeader {
+.designsHeader,
+.projectsHeader {
   background: var(--pink-color);
   padding: 15px 0;
   max-width: 600px;
@@ -84,7 +85,12 @@ header h3 {
   border: 2px solid black;
 }
 
-.designsHeader h1 {
+.projectsHeader {
+  max-width: 650px;
+}
+
+.designsHeader h1,
+.projectsHeader h1 {
   text-align: center;
   color: white;
   font-size: 45px;
@@ -94,7 +100,8 @@ header h3 {
   -webkit-text-stroke-color: black;
 }
 
-.designsHeader h3 {
+.designsHeader h3,
+.projectsHeader h3 {
   text-align: center;
   color: black;
   font-size: 13px;
@@ -191,14 +198,17 @@ footer {
   .navbar-brand {
     font-size: 13px;
   }
-  .designsHeader {
+  .designsHeader,
+  .projectsHeader {
     max-width: 270px;
     margin-top: 50px;
   }
-  .designsHeader h1 {
+  .designsHeader h1,
+  .projectsHeader h1 {
     font-size: 23px;
   }
-  .designsHeader h3 {
+  .designsHeader h3,
+  .projectsHeader h3 {
     font-size: 8px;
     margin-top: 5px;
     margin-left: 10px;
@@ -241,14 +251,17 @@ footer {
   .navbar-brand {
     font-size: 15px;
   }
-  .designsHeader {
+  .designsHeader,
+  .projectsHeader {
     max-width: 300px;
     margin-top: 50px;
   }
-  .designsHeader h1 {
+  .designsHeader h1,
+  .projectsHeader h1 {
     font-size: 30px;
   }
-  .designsHeader h3 {
+  .designsHeader h3,
+  .projectsHeader h3 {
     font-size: 8px;
     margin-top: 5px;
     line-height: 20px;
@@ -285,14 +298,17 @@ footer {
   .navbar-brand {
     font-size: 15px;
   }
-  .designsHeader {
+  .designsHeader,
+  .projectsHeader {
     max-width: 345px;
     margin-top: 60px;
   }
-  .designsHeader h1 {
+  .designsHeader h1,
+  .projectsHeader h1 {
     font-size: 30px;
   }
-  .designsHeader h3 {
+  .designsHeader h3,
+  .projectsHeader h3 {
     font-size: 9px;
     margin-top: 5px;
     margin-left: 10px;
@@ -331,14 +347,17 @@ footer {
   .navbar-brand {
     font-size: 15px;
   }
-  .designsHeader {
-    max-width: 400px;
+  .designsHeader,
+  .projectsHeader {
+    max-width: 420px;
     margin-top: 60px;
   }
-  .designsHeader h1 {
+  .designsHeader h1,
+  .projectsHeader h1 {
     font-size: 34px;
   }
-  .designsHeader h3 {
+  .designsHeader h3,
+  .projectsHeader h3 {
     font-size: 10px;
     margin-top: 5px;
     margin-left: 10px;
@@ -375,13 +394,16 @@ footer {
   .navbar-brand {
     font-size: 15px;
   }
-  .designsHeader {
+  .designsHeader,
+  .projectsHeader {
     max-width: 500px;
   }
-  .designsHeader h1 {
+  .designsHeader h1,
+  .projectsHeader h1 {
     font-size: 37px;
   }
-  .designsHeader h3 {
+  .designsHeader h3,
+  .projectsHeader h3 {
     font-size: 11px;
     margin-top: 5px;
     margin-left: 10px;
