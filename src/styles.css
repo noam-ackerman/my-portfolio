@@ -27,7 +27,60 @@ header {
   border: 2px solid black;
 }
 
-h1 {
+.designsHeader {
+  background: var(--pink-color);
+  padding: 15px 0;
+  max-width: 600px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+.designsHeader h1 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  margin-top: 5px;
+  font-family: "Press Start 2P", cursive;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.designsHeader h3 {
+  text-align: center;
+  color: black;
+  font-size: 13px;
+  font-family: "Press Start 2P", cursive;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+
+.designsImgs {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.designsImgs .row {
+  margin: 0 30px;
+}
+
+.designsImgs .row .col-md-6 {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.designsImgs .row .col-md-6 img {
+  background: black;
+  padding: 2px;
+}
+
+header h1 {
   text-align: center;
   color: white;
   font-size: 55px;
@@ -37,7 +90,7 @@ h1 {
   -webkit-text-stroke-color: black;
 }
 
-h3 {
+header h3 {
   text-align: center;
   color: black;
   font-size: 17px;
@@ -94,15 +147,17 @@ footer {
 }
 
 .navbar-brand {
-  color: black;
-  font-size: 17px;
+  color: white !important;
+  font-size: 18px;
   font-family: "Press Start 2P", cursive;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .nav-link {
   font-family: "Press Start 2P", cursive;
   color: black;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 @media (max-width: 320px) {
@@ -111,14 +166,14 @@ footer {
     max-width: 310px;
     margin-bottom: 0;
   }
-  h1 {
+  header h1 {
     font-size: 22px;
     line-height: 30px;
     margin-left: 10px;
     margin-right: 10px;
   }
 
-  h3 {
+  header h3 {
     margin-top: 10px;
     font-size: 8px;
     line-height: 13px;
@@ -132,6 +187,26 @@ footer {
     font-size: 11px;
     width: 125px;
   }
+  .navbar-brand {
+    font-size: 13px;
+  }
+  .designsHeader {
+    max-width: 270px;
+    margin-top: 50px;
+  }
+  .designsHeader h1 {
+    font-size: 23px;
+  }
+  .designsHeader h3 {
+    font-size: 8px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 20px;
+  }
+  .designsImgs {
+    margin-top: 40px;
+  }
   footer {
     font-size: 5px;
   }
@@ -143,12 +218,12 @@ footer {
     max-width: 310px;
     margin-bottom: 0;
   }
-  h1 {
+  header h1 {
     font-size: 22px;
     line-height: 30px;
   }
 
-  h3 {
+  header h3 {
     margin-top: 10px;
     font-size: 8px;
     line-height: 13px;
@@ -162,6 +237,24 @@ footer {
     font-size: 11px;
     width: 125px;
   }
+  .navbar-brand {
+    font-size: 15px;
+  }
+  .designsHeader {
+    max-width: 300px;
+    margin-top: 50px;
+  }
+  .designsHeader h1 {
+    font-size: 30px;
+  }
+  .designsHeader h3 {
+    font-size: 8px;
+    margin-top: 5px;
+    line-height: 20px;
+  }
+  .designsImgs {
+    margin-top: 40px;
+  }
   footer {
     font-size: 5px;
   }
@@ -173,11 +266,11 @@ footer {
     max-width: 340px;
     margin-bottom: 10px;
   }
-  h1 {
+  header h1 {
     font-size: 22px;
   }
 
-  h3 {
+  header h3 {
     margin-top: 15px;
     font-size: 9px;
   }
@@ -187,6 +280,26 @@ footer {
   .btn {
     font-size: 13px;
     width: 145px;
+  }
+  .navbar-brand {
+    font-size: 15px;
+  }
+  .designsHeader {
+    max-width: 345px;
+    margin-top: 60px;
+  }
+  .designsHeader h1 {
+    font-size: 30px;
+  }
+  .designsHeader h3 {
+    font-size: 9px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 20px;
+  }
+  .designsImgs {
+    margin-top: 40px;
   }
   footer {
     font-size: 6px;
@@ -199,11 +312,11 @@ footer {
     margin-top: 100px;
     margin-bottom: 10px;
   }
-  h1 {
+  header h1 {
     font-size: 26px;
   }
 
-  h3 {
+  header h3 {
     margin-top: 15px;
     font-size: 10px;
   }
@@ -213,6 +326,26 @@ footer {
   .btn {
     font-size: 17px;
     width: 180px;
+  }
+  .navbar-brand {
+    font-size: 15px;
+  }
+  .designsHeader {
+    max-width: 400px;
+    margin-top: 60px;
+  }
+  .designsHeader h1 {
+    font-size: 34px;
+  }
+  .designsHeader h3 {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 20px;
+  }
+  .designsImgs {
+    margin-top: 40px;
   }
   footer {
     font-size: 7px;
@@ -224,11 +357,11 @@ footer {
     max-width: 530px;
     margin-top: 110px;
   }
-  h1 {
+  header h1 {
     font-size: 33px;
   }
 
-  h3 {
+  header h3 {
     margin-top: 20px;
     font-size: 12px;
   }
@@ -237,5 +370,24 @@ footer {
   }
   .btn {
     font-size: 17px;
+  }
+  .navbar-brand {
+    font-size: 15px;
+  }
+  .designsHeader {
+    max-width: 500px;
+  }
+  .designsHeader h1 {
+    font-size: 37px;
+  }
+  .designsHeader h3 {
+    font-size: 11px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 20px;
+  }
+  .designsImgs {
+    margin-top: 40px;
   }
 }
