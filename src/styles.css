@@ -6,6 +6,7 @@
   --orange-color: #f3caa5;
   --red-color: #e26c60;
   --light-purple-color: #dec0fe;
+  --shadow-: 2px 2px 25px rgb(0, 0, 0, 0.2);
 }
 
 body {
@@ -25,6 +26,7 @@ header {
   margin-bottom: 20px;
   border-radius: 30px;
   border: 2px solid black;
+  box-shadow: var(--shadow-);
 }
 
 header h1 {
@@ -65,27 +67,33 @@ header h3 {
   font-size: 18px;
   color: black;
   text-decoration: none;
+  transition: all 150ms ease-in;
+  box-shadow: var(--shadow-);
 }
 
 .btn:hover {
   background: var(--light-green-color);
 }
 
+.designsHeader {
+  background: var(--light-green-color);
+  max-width: 600px;
+}
 .designsHeader,
 .projectsHeader {
-  background: var(--pink-color);
   padding: 15px 0;
-  max-width: 600px;
   text-align: center;
   display: block;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 130px;
   margin-bottom: 10px;
   border-radius: 30px;
   border: 2px solid black;
+  box-shadow: var(--shadow-);
 }
 
 .projectsHeader {
+  background: var(--light-purple-color);
   max-width: 650px;
 }
 
@@ -121,15 +129,16 @@ header h3 {
   margin: 0 30px;
 }
 
-.designsImgs .row .col-md-6 {
+.designsImgs .col-md-6 {
   max-width: 500px;
   margin: 20px auto;
 }
 
-.designsImgs .row .col-md-6 img {
+.designsImgs img {
   background: black;
   padding: 2px;
   border-radius: 5px;
+  box-shadow: var(--shadow-);
 }
 
 footer {
@@ -140,6 +149,7 @@ footer {
   padding-bottom: 7px;
   padding-top: 7px;
   font-family: "Press Start 2P", cursive;
+  box-shadow: -2px -2px 30px rgb(0, 0, 0, 0.15);
 }
 
 .codeLink {
@@ -152,6 +162,11 @@ footer {
 
 .navbar-pink {
   background: var(--pink-color);
+  box-shadow: 2px 2px 30px rgb(0, 0, 0, 0.15);
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
 }
 
 .navbar-brand {
@@ -201,7 +216,7 @@ footer {
   .designsHeader,
   .projectsHeader {
     max-width: 270px;
-    margin-top: 50px;
+    margin-top: 110px;
   }
   .designsHeader h1,
   .projectsHeader h1 {
@@ -254,7 +269,7 @@ footer {
   .designsHeader,
   .projectsHeader {
     max-width: 300px;
-    margin-top: 50px;
+    margin-top: 110px;
   }
   .designsHeader h1,
   .projectsHeader h1 {
@@ -301,7 +316,7 @@ footer {
   .designsHeader,
   .projectsHeader {
     max-width: 345px;
-    margin-top: 60px;
+    margin-top: 110px;
   }
   .designsHeader h1,
   .projectsHeader h1 {
@@ -350,7 +365,7 @@ footer {
   .designsHeader,
   .projectsHeader {
     max-width: 420px;
-    margin-top: 60px;
+    margin-top: 110px;
   }
   .designsHeader h1,
   .projectsHeader h1 {
