@@ -1,3 +1,13 @@
+:root {
+  --pink-color: #fd90e0;
+  --light-blue-color: #99ecfe;
+  --light-green-color: #c5feca;
+  --yellow-color: #fef5ae;
+  --orange-color: #f3caa5;
+  --red-color: #e26c60;
+  --light-purple-color: #dec0fe;
+}
+
 body {
   background: url(/img/background.jpg) fixed;
   background-size: 300px;
@@ -5,7 +15,7 @@ body {
 }
 
 header {
-  background: #fd90e0;
+  background: var(--pink-color);
   padding: 15px 0;
   max-width: 800px;
   text-align: center;
@@ -45,7 +55,7 @@ h3 {
 }
 
 .btn {
-  background: #99ecfe;
+  background: var(--light-blue-color);
   width: 180px;
   padding: 15px 0;
   border-radius: 30px;
@@ -58,14 +68,14 @@ h3 {
 }
 
 .btn:hover {
-  background: #c5feca;
+  background: var(--light-green-color);
 }
 
 footer {
   font-size: 8px;
   color: black;
   text-align: center;
-  background: #fd90e0;
+  background: var(--pink-color);
   padding-bottom: 7px;
   padding-top: 7px;
   font-family: "Press Start 2P", cursive;
@@ -77,6 +87,22 @@ footer {
 
 .codeLink:hover {
   color: white;
+}
+
+.navbar-pink {
+  background: var(--pink-color);
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 17px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.nav-link {
+  font-family: "Press Start 2P", cursive;
+  color: black;
+  font-size: 12px;
 }
 
 @media (max-width: 320px) {
