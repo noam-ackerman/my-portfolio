@@ -192,6 +192,37 @@ a {
   text-align: center;
 }
 
+.launchApp,
+.github {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 15px 6px;
+  font-family: roboto;
+  color: black;
+  text-decoration: none;
+  background: var(--pink-color);
+  max-width: 145px;
+  padding: 10px;
+  border: 2px solid var(--light-blue-color);
+  border-radius: 5px;
+  box-shadow: 2px 2px 30px rgb(0, 0, 0, 0.1);
+  transition: var(--transition);
+}
+
+.projectsLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.launchApp:hover,
+.github:hover {
+  color: black;
+  background-color: var(--light-green-color);
+}
+
 .aboutSection {
   max-width: 1050px;
   padding: 40px;
@@ -252,7 +283,7 @@ a {
   max-width: 1050px;
   padding: 40px;
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   text-align: center;
   background: var(--yellow-color);
   border: 2px solid black;
@@ -260,10 +291,11 @@ a {
   box-shadow: var(--shadow-);
 }
 
-.toolBox h2 {
+.toolBox h2,
+.credential h2 {
   font-family: "Press Start 2P", cursive;
   font-size: 22px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   text-decoration: underline;
 }
 
@@ -288,35 +320,29 @@ div .toolName {
   padding: 8px;
   font-weight: 500;
 }
-.launchApp,
-.github {
+
+.credential {
+  max-width: 1050px;
+  padding: 40px;
+  margin: 0 auto;
+  margin-bottom: 80px;
   text-align: center;
-  font-weight: 600;
-  font-size: 16px;
-  margin: 15px 6px;
-  font-family: roboto;
-  color: black;
-  text-decoration: none;
-  background: var(--pink-color);
-  max-width: 145px;
-  padding: 10px;
-  border: 2px solid var(--light-blue-color);
+  background: var(--red-color);
+  border: 2px solid black;
+  border-radius: 30px;
+  box-shadow: var(--shadow-);
+}
+
+.credential .row {
+  padding: 5px 15px 15px 20px;
+}
+
+.credential col-md-4 {
+  padding: 15px;
+}
+
+.credential img {
   border-radius: 5px;
-  box-shadow: 2px 2px 30px rgb(0, 0, 0, 0.1);
-  transition: var(--transition);
-}
-
-.projectsLinks {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.launchApp:hover,
-.github:hover {
-  color: black;
-  background-color: var(--light-green-color);
 }
 
 footer {
@@ -427,12 +453,14 @@ footer {
   .noam {
     padding: 30px;
   }
-  .toolBox {
+  .toolBox,
+  .credential {
     max-width: 260px;
     padding: 40px 15px 15px 15px;
   }
 
-  .toolBox h2 {
+  .toolBox h2,
+  .credential h2 {
     font-size: 15px;
   }
 
@@ -554,12 +582,14 @@ footer {
     padding: 30px;
   }
 
-  .toolBox {
+  .toolBox,
+  .credential {
     max-width: 300px;
     padding: 40px 15px 15px 15px;
   }
 
-  .toolBox h2 {
+  .toolBox h2,
+  .credential h2 {
     font-size: 15px;
   }
 
@@ -654,12 +684,14 @@ footer {
     padding: 30px 40px;
   }
 
-  .toolBox {
+  .toolBox,
+  .credential {
     max-width: 355px;
     padding: 40px 22px 15px 22px;
   }
 
-  .toolBox h2 {
+  .toolBox h2,
+  .credential h2 {
     font-size: 17px;
   }
 
@@ -759,12 +791,14 @@ footer {
     padding: 30px 70px;
   }
 
-  .toolBox {
+  .toolBox,
+  .credential {
     max-width: 470px;
     padding: 40px 35px 15px 35px;
   }
 
-  .toolBox h2 {
+  .toolBox h2,
+  .credential h2 {
     font-size: 17px;
     margin-bottom: 30px;
   }
@@ -862,12 +896,14 @@ footer {
     padding: 40px 130px 20px 130px;
   }
 
-  .toolBox {
+  .toolBox,
+  .credential {
     max-width: 700px;
     padding: 40px 40px 15px 40px;
   }
 
-  .toolBox h2 {
+  .toolBox h2,
+  .credential h2 {
     font-size: 17px;
     margin-bottom: 30px;
   }
