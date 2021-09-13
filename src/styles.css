@@ -10,8 +10,12 @@
   --transition: all 150ms ease-in;
 }
 
+html {
+  cursor: url(../img/heart-cursor.png), auto;
+}
+
 body {
-  background: url(/img/background.jpg) fixed;
+  background: url(../img/background.jpg) fixed;
   background-size: 300px;
   margin: 0;
 }
@@ -74,18 +78,23 @@ header h3 {
   text-decoration: none;
   transition: var(--transition);
   box-shadow: var(--shadow-);
+  cursor: url(../img/heart-pointer.png), auto;
 }
 
 .btn:hover {
   background: var(--light-green-color);
 }
 
+a {
+  cursor: url(../img/heart-pointer.png), auto;
+}
 .designsHeader {
   background: var(--light-green-color);
   max-width: 600px;
 }
 .designsHeader,
-.projectsHeader {
+.projectsHeader,
+.aboutHeader {
   padding: 15px 0;
   text-align: center;
   display: block;
@@ -102,8 +111,15 @@ header h3 {
   max-width: 650px;
 }
 
+.aboutHeader {
+  background: var(--light-blue-color);
+  max-width: 500px;
+  padding: 20px 0;
+}
+
 .designsHeader h1,
-.projectsHeader h1 {
+.projectsHeader h1,
+.aboutHeader h1 {
   text-align: center;
   color: white;
   font-size: 45px;
@@ -176,6 +192,102 @@ header h3 {
   text-align: center;
 }
 
+.aboutSection {
+  max-width: 1050px;
+  padding: 40px;
+  margin: 60px auto;
+  margin-bottom: 40px;
+  background: var(--light-green-color);
+  border: 2px solid black;
+  border-radius: 30px;
+  box-shadow: var(--shadow-);
+}
+
+.noam {
+  padding: 70px 30px 30px 50px;
+}
+
+.noam img {
+  border-radius: 10px;
+  box-shadow: var(--shadow-);
+  padding: 2px;
+  background: black;
+}
+
+.descriptionAbout {
+  padding: 10px 20px;
+}
+
+.descriptionAbout p {
+  font-family: roboto;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 33px;
+}
+
+.descriptionAbout h3 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+.cvBtn {
+  font-family: "Press Start 2P", cursive;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px;
+  max-width: 100px;
+  color: black;
+  background: var(--light-purple-color);
+  text-decoration: none;
+}
+
+.cvBtn:hover {
+  color: black;
+  background: var(--light-blue-color);
+}
+
+.toolBox {
+  max-width: 1050px;
+  padding: 40px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  text-align: center;
+  background: var(--yellow-color);
+  border: 2px solid black;
+  border-radius: 30px;
+  box-shadow: var(--shadow-);
+}
+
+.toolBox h2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.toolsIcons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.toolsIcons div {
+  padding: 30px;
+}
+
+.toolsIcons i {
+  font-size: 50px;
+}
+
+div .toolName {
+  font-family: roboto;
+  font-size: 15px;
+  padding: 8px;
+  font-weight: 500;
+}
 .launchApp,
 .github {
   text-align: center;
@@ -280,7 +392,8 @@ footer {
     font-size: 13px;
   }
   .designsHeader,
-  .projectsHeader {
+  .projectsHeader,
+  .aboutHeader {
     max-width: 270px;
     margin-top: 110px;
   }
@@ -288,6 +401,53 @@ footer {
   .projectsHeader h1 {
     font-size: 23px;
   }
+  .aboutHeader h1 {
+    font-size: 24px;
+  }
+  .aboutSection {
+    max-width: 260px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .aboutSection h3 {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .aboutSection p {
+    font-size: 14px;
+  }
+
+  .cvBtn {
+    font-size: 10px;
+    padding: 15px 10px;
+  }
+
+  .noam {
+    padding: 30px;
+  }
+  .toolBox {
+    max-width: 260px;
+    padding: 40px 15px 15px 15px;
+  }
+
+  .toolBox h2 {
+    font-size: 15px;
+  }
+
+  .toolBox i {
+    font-size: 25px;
+  }
+
+  div .toolName {
+    font-size: 12px;
+  }
+
+  .toolsIcons div {
+    padding: 13px 9px;
+  }
+
   .designsHeader h3,
   .projectsHeader h3 {
     font-size: 8px;
@@ -343,7 +503,8 @@ footer {
     font-size: 15px;
   }
   .designsHeader,
-  .projectsHeader {
+  .projectsHeader,
+  .aboutHeader {
     max-width: 300px;
     margin-top: 110px;
   }
@@ -365,6 +526,55 @@ footer {
   .projectsImgs {
     margin-top: 40px;
   }
+
+  .aboutHeader h1 {
+    font-size: 25px;
+  }
+  .aboutSection {
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .aboutSection h3 {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .aboutSection p {
+    font-size: 15px;
+  }
+
+  .cvBtn {
+    font-size: 10px;
+    padding: 15px 10px;
+  }
+
+  .noam {
+    padding: 30px;
+  }
+
+  .toolBox {
+    max-width: 300px;
+    padding: 40px 15px 15px 15px;
+  }
+
+  .toolBox h2 {
+    font-size: 15px;
+  }
+
+  .toolBox i {
+    font-size: 25px;
+  }
+
+  div .toolName {
+    font-size: 12px;
+  }
+
+  .toolsIcons div {
+    padding: 13px 9px;
+  }
+
   footer {
     font-size: 5px;
   }
@@ -395,7 +605,8 @@ footer {
     font-size: 15px;
   }
   .designsHeader,
-  .projectsHeader {
+  .projectsHeader,
+  .aboutHeader {
     max-width: 345px;
     margin-top: 110px;
   }
@@ -415,6 +626,55 @@ footer {
   .projectsImgs {
     margin-top: 40px;
   }
+
+  .aboutHeader h1 {
+    font-size: 28px;
+  }
+  .aboutSection {
+    max-width: 355px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .aboutSection h3 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .aboutSection p {
+    font-size: 15px;
+  }
+
+  .cvBtn {
+    font-size: 12px;
+    padding: 15px 10px;
+  }
+
+  .noam {
+    padding: 30px 40px;
+  }
+
+  .toolBox {
+    max-width: 355px;
+    padding: 40px 22px 15px 22px;
+  }
+
+  .toolBox h2 {
+    font-size: 17px;
+  }
+
+  .toolBox i {
+    font-size: 25px;
+  }
+
+  div .toolName {
+    font-size: 12px;
+  }
+
+  .toolsIcons div {
+    padding: 13px 11px;
+  }
+
   footer {
     font-size: 6px;
   }
@@ -449,6 +709,12 @@ footer {
     max-width: 420px;
     margin-top: 110px;
   }
+
+  .aboutHeader {
+    max-width: 360px;
+    margin-top: 100px;
+  }
+
   .designsHeader h1,
   .projectsHeader h1 {
     font-size: 34px;
@@ -465,12 +731,62 @@ footer {
   .projectsImgs {
     margin-top: 40px;
   }
+
+  .aboutHeader h1 {
+    font-size: 32px;
+  }
+  .aboutSection {
+    max-width: 470px;
+    padding: 25px;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .aboutSection h3 {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .aboutSection p {
+    font-size: 15px;
+  }
+
+  .cvBtn {
+    font-size: 13px;
+    padding: 15px 10px;
+  }
+
+  .noam {
+    padding: 30px 70px;
+  }
+
+  .toolBox {
+    max-width: 470px;
+    padding: 40px 35px 15px 35px;
+  }
+
+  .toolBox h2 {
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+
+  .toolBox i {
+    font-size: 30px;
+  }
+
+  div .toolName {
+    font-size: 14px;
+  }
+
+  .toolsIcons div {
+    padding: 13px 13px;
+  }
+
   footer {
     font-size: 7px;
   }
 }
 
-@media (min-width: 600px) and (max-width: 1000px) {
+@media (min-width: 600px) and (max-width: 992px) {
   header {
     max-width: 530px;
     margin-top: 110px;
@@ -496,6 +812,11 @@ footer {
   .projectsHeader {
     max-width: 500px;
   }
+
+  .aboutHeader {
+    max-width: 400px;
+    margin-top: 100px;
+  }
   .designsHeader h1,
   .projectsHeader h1 {
     font-size: 37px;
@@ -511,5 +832,55 @@ footer {
   .designsImgs,
   .projectsImgs {
     margin-top: 40px;
+  }
+
+  .aboutHeader h1 {
+    font-size: 35px;
+  }
+  .aboutSection {
+    max-width: 700px;
+    padding: 35px;
+    text-align: center;
+    margin-top: 38px;
+  }
+  .aboutSection h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .aboutSection p {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+  .cvBtn {
+    font-size: 15px;
+    padding: 15px 10px;
+  }
+
+  .noam {
+    padding: 40px 130px 20px 130px;
+  }
+
+  .toolBox {
+    max-width: 700px;
+    padding: 40px 40px 15px 40px;
+  }
+
+  .toolBox h2 {
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+
+  .toolBox i {
+    font-size: 33px;
+  }
+
+  div .toolName {
+    font-size: 14px;
+  }
+
+  .toolsIcons div {
+    padding: 13px 15px;
   }
 }
