@@ -272,6 +272,7 @@ a {
   color: black;
   background: var(--light-purple-color);
   text-decoration: none;
+  transition: var(--transition);
 }
 
 .cvBtn:hover {
