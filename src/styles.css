@@ -204,7 +204,7 @@ a {
 }
 
 .noam {
-  padding: 70px 30px 30px 50px;
+  padding: 90px 30px 30px 50px;
 }
 
 .noam img {
@@ -219,7 +219,7 @@ a {
 }
 
 .descriptionAbout p {
-  font-family: roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   line-height: 22px;
   margin-bottom: 33px;
@@ -228,7 +228,7 @@ a {
 .descriptionAbout h3 {
   font-family: "Press Start 2P", cursive;
   font-size: 22px;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 .cvBtn {
