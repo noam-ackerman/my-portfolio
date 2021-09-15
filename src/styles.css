@@ -301,14 +301,15 @@ a {
 }
 
 .toolsIcons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
+  padding: 6px 10px 20px 10px;
 }
 
-.toolsIcons div {
-  padding: 33px;
+.toolsIcons .row {
+  padding: 5px;
+}
+
+.toolsIcons .col {
+  padding: 22px;
 }
 
 .toolsIcons i {
@@ -473,8 +474,8 @@ footer {
     font-size: 12px;
   }
 
-  .toolsIcons div {
-    padding: 13px 9px;
+  .toolsIcons .col {
+    padding: 6px;
   }
 
   .designsHeader h3,
@@ -602,8 +603,8 @@ footer {
     font-size: 12px;
   }
 
-  .toolsIcons div {
-    padding: 13px 9px;
+  .toolsIcons .col {
+    padding: 8px;
   }
 
   footer {
@@ -704,8 +705,8 @@ footer {
     font-size: 12px;
   }
 
-  .toolsIcons div {
-    padding: 13px 11px;
+  .toolsIcons .col {
+    padding: 12px;
   }
 
   footer {
@@ -812,8 +813,8 @@ footer {
     font-size: 14px;
   }
 
-  .toolsIcons div {
-    padding: 13px 13px;
+  .toolsIcons .col {
+    padding: 20px;
   }
 
   footer {
@@ -905,19 +906,19 @@ footer {
 
   .toolBox h2,
   .credential h2 {
-    font-size: 17px;
+    font-size: 14px;
     margin-bottom: 30px;
   }
 
   .toolBox i {
-    font-size: 33px;
+    font-size: 30px;
   }
 
   div .toolName {
     font-size: 14px;
   }
 
-  .toolsIcons div {
-    padding: 13px 15px;
+  .toolsIcons .col {
+    padding: 20px;
   }
 }
