@@ -362,7 +362,7 @@ div .toolName {
 .formSection {
   display: block;
   max-width: 580px;
-  padding: 43px;
+  padding: 40px;
   margin: 20px auto;
   background: var(--light-purple-color);
   border: 2px solid black;
@@ -375,7 +375,6 @@ div .toolName {
   font-size: 18px;
   color: black;
   margin-bottom: 7px;
-  cursor: url(../img/heart-cursor.png), auto;
 }
 
 .formSection .formTitle {
@@ -397,6 +396,7 @@ div .toolName {
 form,
 form label {
   width: 100%;
+  cursor: url(../img/heart-cursor.png), auto;
 }
 
 .formSection .emailInput,
