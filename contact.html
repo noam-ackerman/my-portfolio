@@ -68,6 +68,37 @@
         <h1>Contact-me</h1>
         <h3>Let's get in touch!</h3>
       </div>
+      <div class="formSection">
+        <div class="formTitle">
+          <span class="heart">❤</span> send me a message
+          <span class="heart">❤</span>
+        </div>
+        <br />
+        <form action="https://formspree.io/f/mrgrjqpd" method="POST">
+          <label>
+            <p>Your email:</p>
+            <input
+              type="email"
+              name="reply-to"
+              class="emailInput"
+              autocomplete="off"
+            />
+          </label>
+          <br />
+          <br />
+          <label>
+            <p>Your message:</p>
+            <textarea
+              name="message"
+              class="messageInput"
+              autocomplete="off"
+            ></textarea>
+          </label>
+          <br />
+          <br />
+          <button type="submit" class="sendBtn">Send</button>
+        </form>
+      </div>
       <div class="contactInfoSection">
         <div class="row">
           <div class="col-lg-4">
@@ -116,5 +147,6 @@
         >
       </footer>
     </div>
+    <script src="/src/app.js"></script>
   </body>
 </html>
