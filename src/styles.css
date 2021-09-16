@@ -388,7 +388,9 @@ div .toolName {
 
 .formSection .heart {
   color: var(--red-color);
+  font-family: "roboto";
   font-size: 30px;
+  font-weight: bold;
 }
 
 form,
