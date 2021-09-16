@@ -388,7 +388,7 @@ div .toolName {
 
 .formSection .heart {
   color: var(--red-color);
-  font-size: 26px;
+  font-size: 30px;
 }
 
 form,
@@ -632,9 +632,12 @@ footer {
     padding: 30px 25px;
   }
 
-  .formSection .formTitle,
-  .formSection .heart {
+  .formSection .formTitle {
     font-size: 18px;
+  }
+
+  .formSection .heart {
+    font-size: 27px;
   }
 
   .formSection p {
@@ -783,9 +786,12 @@ footer {
     padding: 30px 25px;
   }
 
-  .formSection .formTitle,
-  .formSection .heart {
+  .formSection .formTitle {
     font-size: 18px;
+  }
+
+  .formSection .heart {
+    font-size: 27px;
   }
 
   .formSection p {
@@ -923,9 +929,12 @@ footer {
     padding: 30px 25px;
   }
 
-  .formSection .formTitle,
-  .formSection .heart {
+  .formSection .formTitle {
     font-size: 14px;
+  }
+
+  .formSection .heart {
+    font-size: 23px;
   }
 
   .formSection p {
@@ -1069,9 +1078,12 @@ footer {
     padding: 30px 25px;
   }
 
-  .formSection .formTitle,
-  .formSection .heart {
+  .formSection .formTitle {
     font-size: 17px;
+  }
+
+  .formSection .heart {
+    font-size: 26px;
   }
 
   .formSection p {
@@ -1212,9 +1224,12 @@ footer {
     padding: 35px;
   }
 
-  .formSection .formTitle,
-  .formSection .heart {
+  .formSection .formTitle {
     font-size: 19px;
+  }
+
+  .formSection .heart {
+    font-size: 28px;
   }
 
   .formSection p {
