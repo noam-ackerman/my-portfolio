@@ -489,7 +489,7 @@ footer {
 }
 
 footer i {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .codeLink {
@@ -682,6 +682,10 @@ footer i {
   footer {
     font-size: 5px;
   }
+
+  footer i {
+    font-size: 10px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 380px) {
@@ -831,6 +835,9 @@ footer i {
   footer {
     font-size: 5px;
   }
+  footer i {
+    font-size: 10px;
+  }
 }
 
 @media (min-width: 380px) and (max-width: 480px) {
@@ -973,6 +980,9 @@ footer i {
 
   footer {
     font-size: 6px;
+  }
+  footer i {
+    font-size: 10px;
   }
 }
 
@@ -1122,6 +1132,9 @@ footer i {
 
   footer {
     font-size: 7px;
+  }
+  footer i {
+    font-size: 12px;
   }
 }
 
