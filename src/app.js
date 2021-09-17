@@ -1,3 +1,3 @@
 window.onbeforeunload = () => {
-  location.replace("https://www.noamackerman.com/contact.html");
+  location.href = "https://www.noamackerman.com/contact.html";
 };
