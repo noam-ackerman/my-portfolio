@@ -20,9 +20,7 @@ body {
   margin: 0;
 }
 
-.projectsPage .container {
-  padding: 0 30px;
-}
+/*homepage*/
 
 header {
   background: var(--pink-color);
@@ -85,13 +83,12 @@ header h3 {
   background: var(--light-green-color);
 }
 
+/*CSS related to multiple pages*/
+
 a {
   cursor: url(../img/heart-pointer.png), auto;
 }
-.designsHeader {
-  background: var(--light-green-color);
-  max-width: 600px;
-}
+
 .designsHeader,
 .projectsHeader,
 .aboutHeader,
@@ -110,6 +107,11 @@ a {
 .projectsHeader {
   background: var(--light-purple-color);
   max-width: 650px;
+}
+
+.designsHeader {
+  background: var(--light-green-color);
+  max-width: 600px;
 }
 
 .aboutHeader {
@@ -176,6 +178,12 @@ a {
   box-shadow: var(--shadow-);
 }
 
+/*project page*/
+
+.projectsPage .container {
+  padding: 0 30px;
+}
+
 .project {
   margin: 15px 0 30px 0;
   background-color: var(--light-purple-color);
@@ -232,6 +240,8 @@ a {
   color: black;
   background-color: var(--light-green-color);
 }
+
+/*about me page*/
 
 .aboutSection {
   max-width: 1050px;
@@ -359,6 +369,8 @@ div .toolName {
   box-shadow: 2px 2px 30px rgb(0, 0, 0, 0.1);
 }
 
+/*contact page*/
+
 .formSection {
   display: block;
   max-width: 580px;
@@ -477,6 +489,8 @@ form label {
   text-decoration: underline;
 }
 
+/*footer and nav-bar*/
+
 footer {
   font-size: 8px;
   color: black;
@@ -522,6 +536,8 @@ footer i {
   color: black;
   font-size: 11px;
 }
+
+/*media queries*/
 
 @media (max-width: 320px) {
   header {
