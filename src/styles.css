@@ -593,6 +593,7 @@ footer i {
   .aboutSection h3 {
     font-size: 16px;
     line-height: 30px;
+    margin-bottom: 7px;
   }
 
   .aboutSection p {
@@ -770,8 +771,9 @@ footer i {
     margin-top: 25px;
   }
   .aboutSection h3 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
+    margin-bottom: 7px;
   }
 
   .aboutSection p {
@@ -916,8 +918,9 @@ footer i {
     margin-top: 25px;
   }
   .aboutSection h3 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
+    margin-bottom: 10px;
   }
 
   .aboutSection p {
