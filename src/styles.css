@@ -111,7 +111,7 @@ a {
 
 .designsHeader {
   background: var(--light-green-color);
-  max-width: 600px;
+  max-width: 660px;
 }
 
 .aboutHeader {
@@ -148,7 +148,11 @@ a {
   font-size: 13px;
   font-family: "Press Start 2P", cursive;
   letter-spacing: 2px;
-  margin-top: 30px;
+  margin-top: 20px;
+}
+
+.designsHeader h3 {
+  font-size: 11px;
 }
 
 .designsImgs,
@@ -756,6 +760,7 @@ footer i {
     margin-right: 15px;
     line-height: 20px;
   }
+
   .designsImgs,
   .projectsImgs {
     margin-top: 40px;
@@ -1202,6 +1207,11 @@ footer i {
     margin-left: 10px;
     margin-right: 10px;
     line-height: 20px;
+  }
+
+  .designsHeader h3 {
+    font-size: 11px;
+    padding: 0 10px;
   }
   .designsImgs,
   .projectsImgs {
