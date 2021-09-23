@@ -81,7 +81,7 @@
         <div class="formTitle">
           Send me a message <span class="heart"><3</span>
         </div>
-        <br />
+        <div class="error"><br /></div>
         <form
           name="contact"
           method="POST"
@@ -94,6 +94,7 @@
               type="email"
               name="reply-to"
               class="emailInput"
+              id="email"
               autocomplete="off"
             />
           </label>
@@ -103,13 +104,14 @@
             <p>Your message:</p>
             <textarea
               name="message"
+              id="message"
               class="messageInput"
               autocomplete="off"
             ></textarea>
           </label>
           <br />
           <br />
-          <button type="submit" class="sendBtn">Send</button>
+          <button type="submit" id="sendBtn" class="sendBtn">Send</button>
         </form>
       </div>
       <div class="contactInfoSection">
@@ -170,5 +172,6 @@
         >
       </footer>
     </div>
+    <script src="/src/contact.js"></script>
   </body>
 </html>
