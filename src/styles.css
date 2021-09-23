@@ -396,7 +396,6 @@ div .toolName {
 .formSection .formTitle {
   color: white;
   font-size: 21px;
-  margin-bottom: 5px;
   font-family: "Press Start 2P", cursive;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
@@ -449,6 +448,13 @@ form label {
   color: black;
   background: var(--light-purple-color);
   cursor: url(../img/heart-pointer.png), auto;
+}
+
+.error {
+  font-size: 15px;
+  font-style: italic;
+  font-family: "roboto";
+  margin-bottom: 10px;
 }
 
 .contactInfoSection {
