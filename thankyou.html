@@ -139,20 +139,10 @@
       </footer>
     </div>
     <script>
-      /*  if (sessionStorage.getItem("beenhere") === "1") {
+      if (sessionStorage.getItem("beenhere") === "1") {
         window.location = "http://www.noamackerman.com/contact";
       }
-      sessionStorage.setItem("beenhere", "1");*/
-      if (
-        document.referrer == null ||
-        document.referrer.indexOf(window.location.hostname) < 0
-      ) {
-        sessionStorage.setItem("is_reloaded", true);
-      }
-
-      if (sessionStorage.getItem("is_reloaded")) {
-        location.href = "http://www.noamackerman.com/contact";
-      }
+      sessionStorage.setItem("beenhere", "1");
     </script>
   </body>
 </html>
