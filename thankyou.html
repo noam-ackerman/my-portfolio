@@ -138,5 +138,11 @@
         >
       </footer>
     </div>
+    <script>
+      if (sessionStorage.getItem("beenhere") === "1") {
+        window.location = "http://www.noamackerman.com/contact";
+      }
+      sessionStorage.setItem("beenhere", "1");
+    </script>
   </body>
 </html>
