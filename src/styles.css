@@ -863,10 +863,10 @@ footer i {
 @media (min-width: 380px) and (max-width: 480px) {
   header {
     margin-top: 70px;
-    max-width: 340px;
+    max-width: 360px;
   }
   header h1 {
-    font-size: 22px;
+    font-size: 23px;
   }
 
   header h3 {
@@ -874,11 +874,11 @@ footer i {
     font-size: 9px;
   }
   .btns {
-    max-width: 340px;
+    max-width: 360px;
   }
   .btn {
-    font-size: 13px;
-    width: 145px;
+    font-size: 14px;
+    width: 155px;
   }
   .navbar-brand {
     font-size: 15px;
@@ -990,7 +990,7 @@ footer i {
 
   .contactInfoSection {
     max-width: 355px;
-    margin-top: 20px;
+    margin-top: 25px;
     padding: 30px 20px;
   }
 
@@ -1020,7 +1020,7 @@ footer i {
     margin-top: 100px;
   }
   header h1 {
-    font-size: 26px;
+    font-size: 28px;
   }
 
   header h3 {
