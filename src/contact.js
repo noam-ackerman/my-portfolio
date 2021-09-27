@@ -4,7 +4,7 @@ let errorNote = document.querySelector(".error");
 sendBtn.addEventListener("click", Validate);
 
 function Validate(e) {
-  var inputs = [
+  let inputs = [
     document.getElementById("email"),
     document.getElementById("message"),
   ];
@@ -13,7 +13,6 @@ function Validate(e) {
     if (input.value == "") {
       errorNote.innerHTML = "Please complete all fields!";
       e.preventDefault();
-      return false;
     }
   });
 }
