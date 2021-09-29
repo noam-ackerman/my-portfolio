@@ -640,7 +640,7 @@ footer i {
   }
 
   .projectName {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .projectDescription {
@@ -752,6 +752,10 @@ footer i {
   .designsImgs,
   .projectsImgs {
     margin-top: 25px !important;
+  }
+
+  .projectName {
+    font-size: 13px;
   }
 
   .aboutHeader h1 {
