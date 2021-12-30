@@ -711,16 +711,16 @@ footer i {
 
   header h3 {
     margin-top: 10px;
-    font-size: 8px;
-    line-height: 13px;
-    margin-left: 10px;
-    margin-right: 10px;
+    font-size: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 20px;
   }
   .btns {
-    max-width: 200px;
+    max-width: 300px;
   }
   .btn {
-    font-size: 13px;
+    font-size: 12px;
     width: 125px;
   }
   .navbar-brand {
