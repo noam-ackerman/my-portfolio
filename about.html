@@ -145,6 +145,16 @@
               <div class="toolName">React</div>
             </div>
             <div class="col">
+              <i class="fas fa-dollar-sign"></i>
+              <div class="toolName">jQuery</div>
+            </div>
+            <div class="col">
+              <i class="fas fa-hashtag"></i>
+              <div class="toolName">Apache Velocity</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
               <i class="fas fa-cogs"></i>
               <div class="toolName">API</div>
             </div>
@@ -152,8 +162,6 @@
               <i class="fab fa-github-square"></i>
               <div class="toolName">GitHub</div>
             </div>
-          </div>
-          <div class="row">
             <div class="col">
               <i class="fas fa-code"></i>
               <div class="toolName">VS Codes</div>
@@ -170,20 +178,35 @@
               <i class="fas fa-network-wired"></i>
               <div class="toolName">Netlify</div>
             </div>
+          </div>
+          <div class="row">
             <div class="col">
               <i class="fab fa-google"></i>
               <div class="toolName">SEO</div>
             </div>
             <div class="col">
               <i class="fas fa-tablet-alt"></i>
-              <div class="toolName">Responsive</div>
+              <div class="toolName">Responsive design</div>
             </div>
-          </div>
-          <div class="row">
             <div class="col">
               <i class="fas fa-th-large"></i>
               <div class="toolName">Flexbox</div>
             </div>
+
+            <div class="col">
+              <i class="fas fa-bug"></i>
+              <div class="toolName">Browser DevTools</div>
+            </div>
+            <div class="col">
+              <i class="fab fa-jira"></i>
+              <div class="toolName">Jira</div>
+            </div>
+            <div class="col">
+              <i class="fab fa-slack"></i>
+              <div class="toolName">Slack</div>
+            </div>
+          </div>
+          <div class="row">
             <div class="col">
               <i class="far fa-object-group"></i>
               <div class="toolName">Wireframing</div>
@@ -191,6 +214,10 @@
             <div class="col">
               <i class="fab fa-figma"></i>
               <div class="toolName">Figma</div>
+            </div>
+            <div class="col">
+              <i class="fas fa-bezier-curve"></i>
+              <div class="toolName">illustrator</div>
             </div>
             <div class="col">
               <i class="far fa-images"></i>
@@ -271,5 +298,26 @@
         >
       </footer>
     </div>
+    <script>
+      function matchHeight(selector) {
+        let height = 0;
+        document.querySelectorAll(selector).forEach((productName) => {
+          productName.style.height = "unset";
+        });
+        document.querySelectorAll(selector).forEach((productName) => {
+          if (productName.clientHeight > height) {
+            height = productName.clientHeight;
+          }
+        });
+        document.querySelectorAll(selector).forEach((productName) => {
+          productName.style.height = height + "px";
+        });
+      }
+
+      matchHeight(".col");
+      window.addEventListener("resize", function () {
+        matchHeight(".col");
+      });
+    </script>
   </body>
 </html>
