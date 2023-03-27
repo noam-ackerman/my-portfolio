@@ -55,15 +55,17 @@ header h3 {
 .btns {
   display: flex;
   justify-content: space-evenly;
-  max-width: 850px;
+  align-items: center;
+  max-width: 800px;
   margin: 0 auto;
   flex-wrap: wrap;
+  gap: 15px;
 }
 
 .btn {
   background: var(--light-blue-color);
-  width: 180px;
   padding: 15px 0;
+  flex:1;
   border-radius: 30px;
   border: 2px solid black;
   font-family: "Press Start 2P", cursive;
@@ -541,6 +543,7 @@ footer i {
   }
   .btns {
     max-width: 200px;
+    flex-direction: column;
   }
   .btn {
     font-size: 12px;
@@ -718,6 +721,7 @@ footer i {
   }
   .btns {
     max-width: 300px;
+    flex-direction: column;
   }
   .btn {
     font-size: 12px;
@@ -879,6 +883,7 @@ footer i {
   }
   .btns {
     max-width: 360px;
+    flex-direction: column;
   }
   .btn {
     font-size: 14px;
@@ -1033,6 +1038,7 @@ footer i {
   }
   .btns {
     max-width: 440px;
+    flex-direction: column;
   }
   .btn {
     font-size: 17px;
