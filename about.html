@@ -162,6 +162,10 @@
               <div class="toolName">GitHub</div>
             </div>
             <div class="col">
+              <i class="fas fa-bug"></i>
+              <div class="toolName">Browser DevTools</div>
+            </div>
+            <div class="col">
               <i class="fas fa-code"></i>
               <div class="toolName">VS Codes</div>
             </div>
@@ -173,12 +177,12 @@
               <i class="fab fa-bootstrap"></i>
               <div class="toolName">Bootstrap</div>
             </div>
+          </div>
+          <div class="row">
             <div class="col">
               <i class="fas fa-network-wired"></i>
               <div class="toolName">Netlify</div>
             </div>
-          </div>
-          <div class="row">
             <div class="col">
               <i class="fab fa-google"></i>
               <div class="toolName">SEO</div>
@@ -190,11 +194,6 @@
             <div class="col">
               <i class="fas fa-th-large"></i>
               <div class="toolName">Flexbox</div>
-            </div>
-
-            <div class="col">
-              <i class="fas fa-bug"></i>
-              <div class="toolName">Browser DevTools</div>
             </div>
             <div class="col">
               <i class="fab fa-jira"></i>
@@ -303,19 +302,23 @@
         document.querySelectorAll(selector).forEach((productName) => {
           productName.style.height = "unset";
         });
-        document.querySelectorAll(selector).forEach((productName) => {
-          if (productName.clientHeight > height) {
-            height = productName.clientHeight;
-          }
-        });
-        document.querySelectorAll(selector).forEach((productName) => {
-          productName.style.height = height + "px";
-        });
+        setTimeout(() => {
+          document.querySelectorAll(selector).forEach((productName) => {
+            if (productName.clientHeight > height) {
+              height = productName.clientHeight;
+            }
+          });
+        },150)
+        setTimeout(() => {
+          document.querySelectorAll(selector).forEach((productName) => {
+            productName.style.height = height + "px";
+          });
+        },250)
       }
 
-      matchHeight(".col");
+      matchHeight(".toolsIcons .col");
       window.addEventListener("resize", function () {
-        matchHeight(".col");
+        matchHeight(".toolsIcons .col");
       });
     </script>
   </body>
