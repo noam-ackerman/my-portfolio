@@ -316,30 +316,5 @@
         >
       </footer>
     </div>
-    <script>
-      function matchHeight(selector) {
-        let height = 0;
-        document.querySelectorAll(selector).forEach((productName) => {
-          productName.style.height = "unset";
-        });
-        setTimeout(() => {
-          document.querySelectorAll(selector).forEach((productName) => {
-            if (productName.clientHeight > height) {
-              height = productName.clientHeight;
-            }
-          });
-        },150)
-        setTimeout(() => {
-          document.querySelectorAll(selector).forEach((productName) => {
-            productName.style.height = height + "px";
-          });
-        },250)
-      }
-
-      matchHeight(".toolsIcons .col");
-      window.addEventListener("resize", function () {
-        matchHeight(".toolsIcons .col");
-      });
-    </script>
   </body>
 </html>
