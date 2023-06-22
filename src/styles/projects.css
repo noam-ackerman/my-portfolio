@@ -1,0 +1,107 @@
+.projectsPage .container {
+  padding: 0 1rem;
+}
+
+.projectsHeader {
+  background: var(--light-purple-color);
+}
+
+.projects {
+  width: min(1200px, 95%);
+  margin: 0 auto;
+}
+
+.projects .col-md-6 {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.project {
+  margin: 15px 0 30px 0;
+  background-color: var(--light-purple-color);
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: var(--shadow-);
+}
+.projectName {
+  text-align: center;
+  font-size: 16px;
+  color: var(--light-blue-color);
+  margin: 10px 21px;
+  font-family: "Press Start 2P", cursive;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  line-height: 1.6rem;
+}
+
+.projectDescription {
+  font-family: roboto;
+  margin: 0 25px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.launchApp,
+.github {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 15px 6px;
+  font-family: roboto;
+  color: black;
+  text-decoration: none;
+  background: var(--pink-color);
+  max-width: 145px;
+  padding: 10px;
+  border: 2px solid var(--light-blue-color);
+  border-radius: 5px;
+  box-shadow: 2px 2px 30px rgb(0, 0, 0, 0.1);
+  transition: var(--transition);
+}
+
+.projectsLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.launchApp:hover,
+.github:hover {
+  color: black;
+  background-color: var(--light-green-color);
+}
+
+.projects img {
+  padding: 2px;
+}
+
+/* media queries */
+
+@media (max-width: 1200px) {
+  .projects .col-md-6 {
+    max-width: 450px;
+  }
+}
+@media (max-width: 1000px) {
+  .projects .col-md-6 {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects .col-md-6 {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 550px) {
+  .projects {
+    margin-top: 2.1rem !important;
+  }
+  .projectName {
+    font-size: 14px;
+  }
+}

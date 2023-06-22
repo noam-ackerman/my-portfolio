@@ -1,0 +1,154 @@
+:root {
+  --pink-color: #fd90e0;
+  --light-blue-color: #99ecfe;
+  --light-green-color: #c5feca;
+  --yellow-color: #fef5ae;
+  --orange-color: #f3caa5;
+  --red-color: #e26c60;
+  --light-purple-color: #dec0fe;
+  --shadow-: 2px 2px 25px rgb(0, 0, 0, 0.2);
+  --transition: all 150ms ease-in;
+  --cursor-default: url(../../img/heart-cursor.png), auto;
+  --cursor-pointer: url(../../img/heart-pointer.png), auto;
+}
+
+html {
+  cursor: var(--cursor-default);
+}
+
+body {
+  background: url(../../img/background.jpg);
+  background-size: 300px;
+  margin: 0;
+}
+
+a {
+  cursor: var(--cursor-pointer);
+}
+
+/* footer & navbar */
+
+footer {
+  font-size: 8px;
+  color: black;
+  text-align: center;
+  background: var(--pink-color);
+  padding-bottom: 7px;
+  padding-top: 7px;
+  font-family: "Press Start 2P", cursive;
+  box-shadow: -2px -2px 30px rgb(0, 0, 0, 0.15);
+}
+
+footer i {
+  font-size: 15px;
+}
+
+.codeLink {
+  color: black;
+}
+
+.codeLink:hover {
+  color: white;
+}
+
+.navbar-pink {
+  background: var(--pink-color);
+  box-shadow: 2px 2px 30px rgb(0, 0, 0, 0.15);
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 18px;
+  font-family: "Press Start 2P", cursive;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.nav-link {
+  font-family: "Press Start 2P", cursive;
+  color: black;
+  font-size: 11px;
+}
+
+.pagesHeader {
+  padding: 1rem;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 110px;
+  border-radius: 30px;
+  box-shadow: var(--shadow-);
+  width: min(650px, 95%);
+}
+
+.pagesHeader h1 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  margin-top: 5px;
+  font-family: "Press Start 2P", cursive;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.pagesHeader h3 {
+  text-align: center;
+  color: black;
+  font-size: 13px;
+  font-family: "Press Start 2P", cursive;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+/*  */
+
+/* media queries */
+@media (max-width: 1000px) {
+  .pagesHeader h1 {
+    font-size: 33px;
+  }
+  .pagesHeader h3 {
+    font-size: 9px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pagesHeader h1 {
+    font-size: 30px;
+  }
+  .pagesHeader h3 {
+    font-size: 8px;
+  }
+  footer {
+    font-size: 7px;
+  }
+  footer i {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 450px) {
+  .pagesHeader {
+    padding: 1rem 0.5rem;
+  }
+  .pagesHeader h1 {
+    font-size: 25px;
+  }
+  footer {
+    font-size: 5px;
+  }
+  footer i {
+    font-size: 10px;
+  }
+  .navbar-brand {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,216 @@
+.aboutHeader {
+  background: var(--light-blue-color);
+  width: min(500px, 82%);
+}
+.aboutSection {
+  width: min(1050px, 95%);
+  padding: 3rem;
+  margin: 0 auto;
+  background: var(--light-purple-color);
+  border-radius: 30px;
+  box-shadow: var(--shadow-);
+}
+
+.noam {
+  padding: 4.5rem 2rem;
+}
+
+.descriptionAbout {
+  padding: 0.7rem 1.4rem;
+}
+
+.descriptionAbout p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 33px;
+}
+
+.descriptionAbout h3 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.cvBtn {
+  display: block;
+  font-family: "Press Start 2P", cursive;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 0.7rem 1rem;
+  width: fit-content;
+  color: black;
+  background: var(--light-blue-color);
+  text-decoration: none;
+  transition: var(--transition);
+  box-shadow: 2px 2px 30px rgb(0, 0, 0, 0.15);
+}
+
+.cvBtn:hover {
+  color: black;
+  background: var(--light-green-color);
+}
+
+.toolBox {
+  width: min(1050px, 95%);
+  padding: 3.5rem 3rem 2rem;
+  margin: 0 auto;
+  text-align: center;
+  background: var(--light-green-color);
+  border-radius: 30px;
+  box-shadow: var(--shadow-);
+}
+
+.toolBox h2,
+.credential h2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-decoration: underline;
+}
+
+.toolsIcons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.toolsIcons .skill {
+  padding: 2rem 1.5rem;
+  width: 16%;
+  flex: unset;
+}
+
+.toolsIcons i {
+  font-size: 50px;
+}
+
+div .toolName {
+  font-family: roboto;
+  font-size: 15px;
+  padding: 8px;
+  font-weight: 500;
+}
+
+.credential {
+  width: min(1050px, 95%);
+  padding: 3rem 3rem 2rem;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  text-align: center;
+  background: var(--yellow-color);
+  border-radius: 30px;
+  box-shadow: var(--shadow-);
+}
+
+.credential col-md-4 {
+  padding: 15px;
+}
+
+/* media queries */
+@media (max-width: 1200px) {
+  .toolBox i {
+    font-size: 35px;
+  }
+
+  div .toolName {
+    font-size: 13px;
+  }
+  .toolsIcons .skill {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .aboutSection {
+    text-align: center;
+  }
+  .descriptionAbout h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .descriptionAbout p {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+  .cvBtn {
+    font-size: 15px;
+    margin: 0 auto;
+  }
+  .noam {
+    padding: 2.5rem 2rem;
+  }
+  .toolBox {
+    padding: 3.5rem 2rem 1.5rem;
+  }
+
+  .toolBox h2,
+  .credential h2 {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .toolBox i {
+    font-size: 26px;
+  }
+
+  .toolsIcons .skill {
+    padding: 2rem 0.6rem;
+    width: 20%;
+  }
+}
+
+@media (max-width: 800px) {
+  .toolsIcons .skill {
+    padding: 1.5rem 0.6rem;
+    width: 25%;
+  }
+  .credential .col-md-4 {
+    margin-bottom: 2.5rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .descriptionAbout h3 {
+    font-size: 15px;
+    margin-bottom: 0.7rem;
+  }
+  .aboutSection {
+    padding: 1.5rem;
+  }
+  .toolBox {
+    padding: 2.5rem 1.5rem 1rem;
+  }
+  .credential {
+    padding: 2.5rem 2.5rem 1rem;
+  }
+  .descriptionAbout {
+    padding: 0.7rem;
+  }
+  .cvBtn {
+    font-size: 13px;
+  }
+}
+@media (max-width: 500px) {
+  .aboutSection {
+    margin-top: 2.5rem !important;
+  }
+  .toolsIcons .skill {
+    width: 33%;
+  }
+}
+@media (max-width: 375px) {
+  .descriptionAbout h3 {
+    font-size: 13px;
+  }
+  .cvBtn {
+    font-size: 11px;
+  }
+  div .toolName {
+    font-size: 10px;
+  }
+}
