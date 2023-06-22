@@ -65,7 +65,7 @@ header h3 {
 .btn {
   background: var(--light-blue-color);
   padding: 15px 0;
-  flex:1;
+  flex: 1;
   border-radius: 30px;
   border: 2px solid black;
   font-family: "Press Start 2P", cursive;
@@ -971,7 +971,7 @@ footer i {
   }
 
   .toolsIcons .col {
-    padding:20px 12px;
+    padding: 20px 12px;
   }
 
   .formSection {
@@ -1120,7 +1120,7 @@ footer i {
   }
 
   .toolsIcons .col {
-    padding:25px 20px;
+    padding: 25px 20px;
   }
 
   .formSection {
@@ -1271,7 +1271,7 @@ footer i {
   }
 
   .toolsIcons .col {
-    padding:25px 20px;
+    padding: 25px 20px;
   }
 
   .formSection {
