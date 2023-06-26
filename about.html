@@ -33,6 +33,11 @@
     ></script>
     <link rel="stylesheet" href="/src/styles/global.css" />
     <link rel="stylesheet" href="/src/styles/about.css" />
+    <script type="text/javascript">
+      function displayImage(img) {
+        img.style.opacity = "1";
+      }
+    </script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light navbar-pink fixed-top">
@@ -129,6 +134,7 @@
               src="/img/noam.jpg"
               class="img-fluid p-1 bg-dark rounded shadow"
               alt="noam-ackerman"
+              onLoad="displayImage(this)"
             />
           </div>
         </div>
