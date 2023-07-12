@@ -16,10 +16,6 @@
   margin: 20px auto;
 }
 
-.projects .col-md-6 img {
-  opacity: 0;
-}
-
 .project {
   margin: 15px 0 30px 0;
   background-color: var(--light-purple-color);

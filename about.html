@@ -33,11 +33,6 @@
     ></script>
     <link rel="stylesheet" href="/src/styles/global.css" />
     <link rel="stylesheet" href="/src/styles/about.css" />
-    <script type="text/javascript">
-      function displayImage(img) {
-        img.style.opacity = "1";
-      }
-    </script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light navbar-pink fixed-top">
@@ -75,6 +70,11 @@
         </div>
       </div>
     </nav>
+    <div class="spinner-wrapper">
+      <div class="spinner-border text-info" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
     <div class="container">
       <div class="aboutHeader pagesHeader border border-2 border-dark">
         <h1>About-Me</h1>
@@ -134,7 +134,6 @@
               src="/img/noam.jpg"
               class="img-fluid p-1 bg-dark rounded shadow"
               alt="noam-ackerman"
-              onLoad="displayImage(this)"
             />
           </div>
         </div>
@@ -347,5 +346,6 @@
         >
       </footer>
     </div>
+    <script src="/src/pageLoading.js"></script>
   </body>
 </html>

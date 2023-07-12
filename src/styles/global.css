@@ -104,6 +104,23 @@ footer i {
   margin-top: 20px;
 }
 
+.container {
+  opacity: 0;
+}
+
+.spinner-wrapper {
+  position: fixed;
+  bottom: 55%;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
+
+.spinner-border {
+  width: 7rem;
+  height: 7rem;
+  border-width: 0.5rem;
+}
+
 /*  */
 
 /* media queries */

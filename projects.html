@@ -33,11 +33,6 @@
     ></script>
     <link rel="stylesheet" href="/src/styles/projects.css" />
     <link rel="stylesheet" href="/src/styles/global.css" />
-    <script type="text/javascript">
-      function displayImage(img) {
-        img.style.opacity = "1";
-      }
-    </script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light navbar-pink fixed-top">
@@ -75,6 +70,11 @@
         </div>
       </div>
     </nav>
+    <div class="spinner-wrapper">
+      <div class="spinner-border text-info" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
     <div class="projectsPage">
       <div class="container">
         <div class="projectsHeader pagesHeader border border-2 border-dark">
@@ -88,7 +88,6 @@
                 src="/img/projects/post-your-thought.jpg"
                 alt="post-your-thought"
                 class="img-fluid bg-dark rounded shadow"
-                onLoad="displayImage(this)"
               />
               <div class="project">
                 <div class="projectName">Post Your Thought</div>
@@ -121,7 +120,6 @@
                 src="/img/projects/expenses-chart.jpg"
                 alt="react-expenses-chart"
                 class="img-fluid bg-dark rounded shadow"
-                onLoad="displayImage(this)"
               />
               <div class="project">
                 <div class="projectName">React Expenses Chart App</div>
@@ -154,7 +152,6 @@
                 src="/img/projects/react-weather-app.jpg"
                 alt="react-weather-app"
                 class="img-fluid bg-dark rounded shadow"
-                onLoad="displayImage(this)"
               />
               <div class="project">
                 <div class="projectName">React Weather App</div>
@@ -184,7 +181,6 @@
                 src="/img/projects/dictionary.jpg"
                 alt="dictionary"
                 class="img-fluid bg-dark rounded shadow"
-                onLoad="displayImage(this)"
               />
               <div class="project">
                 <div class="projectName">React Dictionary</div>
@@ -216,7 +212,6 @@
                 src="/img/projects/drawing-app.jpg"
                 alt="drawing-app"
                 class="img-fluid bg-dark rounded shadow"
-                onLoad="displayImage(this)"
               />
               <div class="project">
                 <div class="projectName">Drawing-App</div>
@@ -246,7 +241,6 @@
                 src="/img/projects/snake-game.jpg"
                 alt="snake-game"
                 class="img-fluid bg-dark rounded shadow"
-                onLoad="displayImage(this)"
               />
               <div class="project">
                 <div class="projectName">Snake-Game</div>
@@ -326,5 +320,6 @@
         </footer>
       </div>
     </div>
+    <script src="/src/pageLoading.js"></script>
   </body>
 </html>
