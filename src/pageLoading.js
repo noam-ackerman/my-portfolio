@@ -15,6 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
       document.querySelector(".spinner-wrapper").remove();
       document.querySelector(".container").style.opacity = "1";
-    }, 300);
+    }, 200);
   });
 });
