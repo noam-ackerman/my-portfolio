@@ -1,5 +1,6 @@
-.projectsPage .container {
+.container {
   padding: 0 1rem;
+  opacity: 0;
 }
 
 .projectsHeader {
@@ -77,6 +78,25 @@
 .projects img {
   padding: 2px;
 }
+/* 
+.projects .blur-div {
+  border: 2px solid black;
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 1/0.8;
+}
+.projects .blur-div.loaded {
+  border: none;
+  aspect-ratio: unset;
+}
+.projects .blur-div.loaded > img {
+  opacity: 1;
+  padding: 2px;
+}
+.projects .blur-div > img {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+} */
 
 /* media queries */
 

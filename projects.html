@@ -13,6 +13,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      as="style"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
@@ -31,8 +36,8 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/src/styles/projects.css" />
     <link rel="stylesheet" href="/src/styles/global.css" />
+    <link rel="stylesheet" href="/src/styles/projects.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light navbar-pink fixed-top">
@@ -75,251 +80,217 @@
         <span class="visually-hidden">Loading...</span>
       </div>
     </div>
-    <div class="projectsPage">
-      <div class="container">
-        <div class="projectsHeader pagesHeader border border-2 border-dark">
-          <h1>Projects</h1>
-          <h3>All projects are responsive for mobile</h3>
+    <div class="container">
+      <div class="projectsHeader pagesHeader border border-2 border-dark">
+        <h1>Projects</h1>
+        <h3>All projects are responsive for mobile</h3>
+      </div>
+      <div class="projects mt-5 mb-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="/img/projects/post-your-thought.jpg"
+              alt="post-your-thought"
+              class="img-fluid bg-dark rounded shadow"
+            />
+            <div class="project">
+              <div class="projectName">Post Your Thought</div>
+              <div class="projectDescription">
+                A social media platform I've designed and built with React, JSX,
+                JS, CSS modules and Firebase integration for Auth, Database and
+                Storage. Authenticated users can set up their profile, post
+                their thoughts, check out other users profile pages and posts,
+                like posts and scroll through the homepage feeds.
+              </div>
+              <div class="projectsLinks">
+                <a
+                  href="https://post-your-thought.netlify.app/"
+                  target="_blank"
+                  class="launchApp"
+                  >Launch</a
+                >
+                <a
+                  href="https://github.com/noam-ackerman/post-your-thought-react"
+                  target="_blank"
+                  class="github"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="/img/projects/expenses-chart.jpg"
+              alt="react-expenses-chart"
+              class="img-fluid bg-dark rounded shadow"
+            />
+            <div class="project">
+              <div class="projectName">React Expenses Chart App</div>
+              <div class="projectDescription">
+                An Expenses chart app (CRUD) I’ve built with React and styled
+                with CSS and bootstrap. Where users can add items, filter by
+                years, edit items and delete them. Including a chart diagram and
+                a calculator.
+              </div>
+              <div class="projectsLinks">
+                <a
+                  href="https://my-expenses-chart-react-app.netlify.app/"
+                  target="_blank"
+                  class="launchApp"
+                  >Launch</a
+                >
+                <a
+                  href="https://github.com/noam-ackerman/expenses-chart-react"
+                  target="_blank"
+                  class="github"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="projects mt-5 mb-5">
-          <div class="row">
-            <div class="col-md-6">
-              <img
-                src="/img/projects/post-your-thought.jpg"
-                alt="post-your-thought"
-                class="img-fluid bg-dark rounded shadow"
-              />
-              <div class="project">
-                <div class="projectName">Post Your Thought</div>
-                <div class="projectDescription">
-                  A social media platform I've designed and built with React,
-                  JSX, JS, CSS modules and Firebase integration for Auth,
-                  Database and Storage. Authenticated users can set up their
-                  profile, post their thoughts, check out other users profile
-                  pages and posts, like posts and scroll through the homepage
-                  feeds.
-                </div>
-                <div class="projectsLinks">
-                  <a
-                    href="https://post-your-thought.netlify.app/"
-                    target="_blank"
-                    class="launchApp"
-                    >Launch</a
-                  >
-                  <a
-                    href="https://github.com/noam-ackerman/post-your-thought-react"
-                    target="_blank"
-                    class="github"
-                    >GitHub</a
-                  >
-                </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="/img/projects/react-weather-app.jpg"
+              alt="react-weather-app"
+              class="img-fluid bg-dark rounded shadow"
+            />
+            <div class="project">
+              <div class="projectName">React Weather App</div>
+              <div class="projectDescription">
+                A weather app I’ve built with React, multiple React hooks, JS,
+                JSX and CSS. Including API integration, bootstrap, animated
+                icons and fahrenheit conversion
               </div>
-            </div>
-            <div class="col-md-6">
-              <img
-                src="/img/projects/expenses-chart.jpg"
-                alt="react-expenses-chart"
-                class="img-fluid bg-dark rounded shadow"
-              />
-              <div class="project">
-                <div class="projectName">React Expenses Chart App</div>
-                <div class="projectDescription">
-                  An Expenses chart app (CRUD) I’ve built with React and styled
-                  with CSS and bootstrap. Where users can add items, filter by
-                  years, edit items and delete them. Including a chart diagram
-                  and a calculator.
-                </div>
-                <div class="projectsLinks">
-                  <a
-                    href="https://my-expenses-chart-react-app.netlify.app/"
-                    target="_blank"
-                    class="launchApp"
-                    >Launch</a
-                  >
-                  <a
-                    href="https://github.com/noam-ackerman/expenses-chart-react"
-                    target="_blank"
-                    class="github"
-                    >GitHub</a
-                  >
-                </div>
+              <div class="projectsLinks">
+                <a
+                  href="https://noam-react-weather.netlify.app"
+                  target="_blank"
+                  class="launchApp"
+                  >Launch</a
+                >
+                <a
+                  href="https://github.com/noam-ackerman/react-weather-app"
+                  target="_blank"
+                  class="github"
+                  >GitHub</a
+                >
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
-              <img
-                src="/img/projects/react-weather-app.jpg"
-                alt="react-weather-app"
-                class="img-fluid bg-dark rounded shadow"
-              />
-              <div class="project">
-                <div class="projectName">React Weather App</div>
-                <div class="projectDescription">
-                  A weather app I’ve built with React, multiple React hooks, JS,
-                  JSX and CSS. Including API integration, bootstrap, animated
-                  icons and fahrenheit conversion
-                </div>
-                <div class="projectsLinks">
-                  <a
-                    href="https://noam-react-weather.netlify.app"
-                    target="_blank"
-                    class="launchApp"
-                    >Launch</a
-                  >
-                  <a
-                    href="https://github.com/noam-ackerman/react-weather-app"
-                    target="_blank"
-                    class="github"
-                    >GitHub</a
-                  >
-                </div>
+          <div class="col-md-6">
+            <img
+              src="/img/projects/dictionary.jpg"
+              alt="dictionary"
+              class="img-fluid bg-dark rounded shadow"
+            />
+            <div class="project">
+              <div class="projectName">React Dictionary</div>
+              <div class="projectDescription">
+                A dictionary app I’ve built with React, multiple React hooks,
+                JS, JSX and CSS. Including multiple API integrations, and
+                bootstrap
               </div>
-            </div>
-            <div class="col-md-6">
-              <img
-                src="/img/projects/dictionary.jpg"
-                alt="dictionary"
-                class="img-fluid bg-dark rounded shadow"
-              />
-              <div class="project">
-                <div class="projectName">React Dictionary</div>
-                <div class="projectDescription">
-                  A dictionary app I’ve built with React, multiple React hooks,
-                  JS, JSX and CSS. Including multiple API integrations, and
-                  bootstrap
-                </div>
-                <div class="projectsLinks">
-                  <a
-                    href="https://noam-react-dictionary.netlify.app"
-                    target="_blank"
-                    class="launchApp"
-                    >Launch</a
-                  >
-                  <a
-                    href="https://github.com/noam-ackerman/dictionary-react"
-                    target="_blank"
-                    class="github"
-                    >GitHub</a
-                  >
-                </div>
+              <div class="projectsLinks">
+                <a
+                  href="https://noam-react-dictionary.netlify.app"
+                  target="_blank"
+                  class="launchApp"
+                  >Launch</a
+                >
+                <a
+                  href="https://github.com/noam-ackerman/dictionary-react"
+                  target="_blank"
+                  class="github"
+                  >GitHub</a
+                >
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
-              <img
-                src="/img/projects/drawing-app.jpg"
-                alt="drawing-app"
-                class="img-fluid bg-dark rounded shadow"
-              />
-              <div class="project">
-                <div class="projectName">Drawing-App</div>
-                <div class="projectDescription">
-                  A drawing app i've built with HTML, CSS and vanilla JS, where
-                  user can draw, adjust colors and brush width, undo last move,
-                  and save results
-                </div>
-                <div class="projectsLinks">
-                  <a
-                    href="https://noam-drawing-app.netlify.app"
-                    target="_blank"
-                    class="launchApp"
-                    >Launch</a
-                  >
-                  <a
-                    href="https://github.com/noam-ackerman/drawing-app"
-                    target="_blank"
-                    class="github"
-                    >GitHub</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <img
-                src="/img/projects/snake-game.jpg"
-                alt="snake-game"
-                class="img-fluid bg-dark rounded shadow"
-              />
-              <div class="project">
-                <div class="projectName">Snake-Game</div>
-                <div class="projectDescription">
-                  A retro snake game I’ve built with vanilla JS, HTML and CSS in
-                  a nostalgic 8-bit aesthetics. I’ve also created original
-                  background music and sound effects and integrated it using
-                  howler.js audio library
-                </div>
-                <div class="projectsLinks">
-                  <a
-                    href="https://noam-snake-game.netlify.app"
-                    target="_blank"
-                    class="launchApp"
-                    >Launch</a
-                  >
-                  <a
-                    href="https://github.com/noam-ackerman/Snake-Game"
-                    target="_blank"
-                    class="github"
-                    >GitHub</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="row">
-            <div class="col-md-6">
-              <img
-                src="/img/projects/to-do-list.jpg"
-                alt="to-do-list"
-                class="img-fluid bg-dark rounded shadow"
-              />
-              <div class="project">
-                <div class="projectName">To-Do List</div>
-                <div class="projectDescription">
-                  To-do list app I’ve built with HTML, CSS and Vanilla JS.<br />In
-                  this app the user can list their assignments, mark items as
-                  completed, filter and erase
-                </div>
-                <div class="projectsLinks">
-                  <a
-                    href="https://noam-to-do-list.netlify.app"
-                    target="_blank"
-                    class="launchApp"
-                    >Launch</a
-                  >
-                  <a
-                    href="https://github.com/noam-ackerman/To-do-List"
-                    target="_blank"
-                    class="github"
-                    >GitHub</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div> -->
         </div>
-        <footer class="fixed-bottom">
-          <i class="fab fa-github"></i>
-          <a
-            href="https://github.com/noam-ackerman/my-portfolio"
-            target="_blank"
-            class="codeLink"
-            title="GitHub"
-          >
-            GitHub code</a
-          >
-          web designed and built by <i class="fab fa-linkedin"></i>
-          <a
-            href="https://www.linkedin.com/in/noam-ackerman/"
-            target="_blank"
-            class="codeLink"
-            title="Noam Ackerman - Linkedin"
-            >Noam Ackerman</a
-          >
-        </footer>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="/img/projects/drawing-app.jpg"
+              alt="drawing-app"
+              class="img-fluid bg-dark rounded shadow"
+            />
+            <div class="project">
+              <div class="projectName">Drawing-App</div>
+              <div class="projectDescription">
+                A drawing app i've built with HTML, CSS and vanilla JS, where
+                user can draw, adjust colors and brush width, undo last move,
+                and save results
+              </div>
+              <div class="projectsLinks">
+                <a
+                  href="https://noam-drawing-app.netlify.app"
+                  target="_blank"
+                  class="launchApp"
+                  >Launch</a
+                >
+                <a
+                  href="https://github.com/noam-ackerman/drawing-app"
+                  target="_blank"
+                  class="github"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="/img/projects/snake-game.jpg"
+              alt="snake-game"
+              class="img-fluid bg-dark rounded shadow"
+            />
+            <div class="project">
+              <div class="projectName">Snake-Game</div>
+              <div class="projectDescription">
+                A retro snake game I’ve built with vanilla JS, HTML and CSS in a
+                nostalgic 8-bit aesthetics. I’ve also created original
+                background music and sound effects and integrated it using
+                howler.js audio library
+              </div>
+              <div class="projectsLinks">
+                <a
+                  href="https://noam-snake-game.netlify.app"
+                  target="_blank"
+                  class="launchApp"
+                  >Launch</a
+                >
+                <a
+                  href="https://github.com/noam-ackerman/Snake-Game"
+                  target="_blank"
+                  class="github"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <footer class="fixed-bottom">
+      <i class="fab fa-github"></i>
+      <a
+        href="https://github.com/noam-ackerman/my-portfolio"
+        target="_blank"
+        class="codeLink"
+        title="GitHub"
+      >
+        GitHub code</a
+      >
+      web designed and built by <i class="fab fa-linkedin"></i>
+      <a
+        href="https://www.linkedin.com/in/noam-ackerman/"
+        target="_blank"
+        class="codeLink"
+        title="Noam Ackerman - Linkedin"
+        >Noam Ackerman</a
+      >
+    </footer>
     <script src="/src/pageLoading.js"></script>
   </body>
 </html>

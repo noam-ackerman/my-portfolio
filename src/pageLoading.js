@@ -1,8 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
   const images = Array.from(document.images);
-  const background = new Image();
-  background.src = "../img/background.jpg";
-  images.push(background);
   Promise.all(
     images.map((img) => {
       if (img.complete) return Promise.resolve(true);

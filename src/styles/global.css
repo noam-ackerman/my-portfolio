@@ -22,7 +22,8 @@ body {
   margin: 0;
 }
 
-a {
+a,
+button {
   cursor: var(--cursor-pointer);
 }
 
@@ -102,10 +103,6 @@ footer i {
   font-family: "Press Start 2P", cursive;
   letter-spacing: 2px;
   margin-top: 20px;
-}
-
-.container {
-  opacity: 0;
 }
 
 .spinner-wrapper {

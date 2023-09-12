@@ -39,7 +39,7 @@
 form,
 form label {
   width: 100%;
-  cursor: url(../img/heart-cursor.png), auto;
+  cursor: var(--cursor-default);
 }
 
 .formSection .emailInput,
@@ -76,7 +76,7 @@ form label {
 .sendBtn:hover {
   color: black;
   background: var(--light-purple-color);
-  cursor: url(../img/heart-pointer.png), auto;
+  cursor: var(--cursor-pointer);
 }
 
 .error {
