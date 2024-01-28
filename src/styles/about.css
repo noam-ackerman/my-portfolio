@@ -13,20 +13,25 @@
   background: var(--light-purple-color);
   border-radius: 30px;
   box-shadow: var(--shadow-);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .noam {
   padding: 4.5rem 2rem;
+  flex: 45%;
 }
 
 .descriptionAbout {
-  padding: 0.7rem 1.4rem;
+  padding: 0.7rem 1.5rem;
+  flex: 55%;
 }
 
 .descriptionAbout p {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  line-height: 22px;
+  line-height: 21px;
   margin-bottom: 33px;
 }
 
@@ -139,15 +144,15 @@ div .toolName {
 @media (max-width: 1000px) {
   .aboutSection {
     text-align: center;
+    flex-direction: column-reverse;
+    padding: 3rem 1.5rem;
+  }
+  .descriptionAbout {
+    flex: 1;
   }
   .descriptionAbout h3 {
     font-size: 20px;
     line-height: 30px;
-  }
-
-  .descriptionAbout p {
-    font-size: 15px;
-    padding: 0 10px;
   }
 
   .cvBtn {
@@ -155,7 +160,8 @@ div .toolName {
     margin: 0 auto;
   }
   .noam {
-    padding: 2.5rem 2rem;
+    padding: 1.5rem 2rem 2.5rem;
+    flex: 1;
   }
   .toolBox {
     padding: 3.5rem 2rem 1.5rem;
@@ -197,8 +203,16 @@ div .toolName {
     margin-bottom: 0.7rem;
   }
   .aboutSection {
-    padding: 1.5rem;
+    padding: 1.5rem 1rem;
   }
+  .noam {
+    padding: 1.5rem 2rem;
+  }
+  .descriptionAbout p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
   .toolBox {
     padding: 2.5rem 1.5rem 1rem;
   }
