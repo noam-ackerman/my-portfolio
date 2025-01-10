@@ -128,7 +128,8 @@ div .toolName {
     font-size: 35px;
   }
 
-  .toolBox img {
+  .toolBox img,
+  .toolBox svg {
     width: 35px;
     height: 35px;
   }
@@ -176,7 +177,8 @@ div .toolName {
   .toolBox i {
     font-size: 26px;
   }
-  .toolBox img {
+  .toolBox img,
+  .toolBox svg {
     width: 26px;
     height: 26px;
   }
@@ -209,7 +211,7 @@ div .toolName {
     padding: 1.5rem 2rem;
   }
   .descriptionAbout p {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 18px;
   }
 
