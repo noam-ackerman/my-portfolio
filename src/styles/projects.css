@@ -78,6 +78,34 @@
 .projects img {
   padding: 2px;
 }
+
+.projectImageWrapper {
+  position: relative;
+}
+
+.projectBadge {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  max-width: calc(100% - 20px);
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.3;
+  padding: 4px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: black;
+  z-index: 1;
+}
+
+.badgeUpdated {
+  background: var(--light-green-color);
+}
+
+.badgeArchived {
+  background: var(--pink-color);
+}
 /* 
 .projects .blur-div {
   border: 2px solid black;
